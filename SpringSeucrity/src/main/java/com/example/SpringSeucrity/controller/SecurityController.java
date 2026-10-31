@@ -17,4 +17,10 @@ public class SecurityController {
 	public String protectedResource() {
 		return "Protected Resource";
 	}
+	
+	@RequestMapping("/private-2")
+	public String protectedResource_2() {
+		return "Protected Resource";
+	}
 }
+
